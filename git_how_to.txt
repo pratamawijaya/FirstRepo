@@ -1,0 +1,20 @@
+--create new branch --
+git checkout -b branch_name
+
+### step by step add new project to repo ###
+
+-- create git repository local
+git init
+
+-- add remote repository
+git remote add origin url_repo
+
+
+----- step by step for add new file
+
+git add .
+
+git commit -m "init file"
+
+git push
+
